@@ -1,13 +1,13 @@
 export interface IPost {
   id: number;
-  tittle: {
-    rendered: string
+  title: {
+    rendered: string;
   };
   content: {
-    rendered: string
+    rendered: string;
   };
   excerpt: {
-    rendered: string
+    rendered: string;
   };
   date: Date;
   slug: string;
