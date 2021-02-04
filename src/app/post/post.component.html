@@ -1,4 +1,4 @@
-<div *ngIf="post$ | async as post">
+<div @postsAnimation *ngIf="post$ | async as post">
   <h3 class="mb-0">
     <a class="text-dark" href="#">{{post.title.rendered}}</a>
   </h3>
